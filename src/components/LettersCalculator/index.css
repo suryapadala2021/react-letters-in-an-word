@@ -1,0 +1,62 @@
+.container {
+  height: 100vh;
+  background-color: #1d976c;
+  padding: 30px;
+}
+.image {
+  height: 230px;
+}
+.main-heading {
+  font-family: 'Roboto';
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+.label {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+#inputBox {
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border-color: #e4e7eb;
+  border-width: 1px;
+  height: 25px;
+  background-color: transparent;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+.display-count {
+  text-align: center;
+  color: #219a6f;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 26px;
+  padding: 1px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    height: 400px;
+    order: 1;
+  }
+  .calculator-box {
+    order: 0;
+    width: 30%;
+  }
+  .main-heading {
+    font-size: 45px;
+    text-align: left;
+  }
+}
